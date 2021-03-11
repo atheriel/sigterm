@@ -10,6 +10,8 @@ Description: Captures 'SIGTERM' signal sent to R and exposes a way to check if
   one has been received. This allows users to implement graceful shutdown
   functionality that might not otherwise be possible to trigger reliably.
 License: Apache License (>= 2)
+URL: https://github.com/atheriel/sigterm
+BugReports: https://github.com/atheriel/sigterm/issues
 Encoding: UTF-8
 LazyData: true
 OS_type: unix
