@@ -1,0 +1,18 @@
+Package: sigterm
+Title: Detect When R Receives 'SIGTERM'
+Version: 0.0.0.9000
+Authors@R: c(
+  person("Aaron", "Jacobs", role = c("aut", "cre"),
+         email = "atheriel@gmail.com")
+  )
+Maintainer: Aaron Jacobs <atheriel@gmail.com>
+Description: Captures 'SIGTERM' signal sent to R and exposes a way to check if
+  one has been received. This allows users to implement graceful shutdown
+  functionality that might not otherwise be possible to trigger reliably.
+License: Apache License (>= 2)
+Encoding: UTF-8
+LazyData: true
+OS_type: unix
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+SystemRequirements: POSIX.1-2001
