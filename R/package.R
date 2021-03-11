@@ -14,6 +14,10 @@
 #'   `SIGTERM` is not available (e.g. on Windows), the return value is `NA`
 #'   instead.
 #'
+#' @examples
+#' # This will be FALSE until the signal has been received,
+#' # or NA on Windows:
+#' has_sigterm_flag()
 #' @export
 has_sigterm_flag <- function() {
   .Call("R_has_sigterm_flag", PACKAGE = "sigterm")

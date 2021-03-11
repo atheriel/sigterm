@@ -20,3 +20,8 @@ signal with this function.
 
 On Windows, this function will always return \code{NA}.
 }
+\examples{
+# This will be FALSE until the signal has been received,
+# or NA on Windows:
+has_sigterm_flag()
+}
